@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="editors-xtd" method="upgrade">
+    <name>Button - add NBS</name>
+    <author><![CDATA[Žroutík]]></author>
+    <creationDate>September 2018</creationDate>
+    <copyright>Copyright (C) 2005 - 2013 Open Source Matters. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>zroutik@gmail.com</authorEmail>
+    <version>0.9</version>
+    <description>Adds a non-breakable space <![CDATA[&amp;nbsp;]]> after each single-letter word (numbers included) and string specified in the setting of the plugin.  Based on the NBS plug-in by effrit@mail.ru firstly published on the Joomla Forum <![CDATA[https://forum.joomla.org/viewtopic.php?f=715&t=965369]]>.</description>
+    <files>
+        <filename plugin="nbsa">nbsa.php</filename>
+    </files>
+	<config>
+	<fields name="params">
+		<fieldset name="basic">		<field			name="label"			type="text"			default="add NBS"			label="Add Button Label"			description="Enter label text for the button"			maxlength="15"			size="10" />
+		<field
+			name="NBSafter"
+			type="text"
+			default=""
+			label="NBS afterwards"
+			description="List strings and characters requiring a NBS afterwards. Separate with spaces. Case ignored. Default: [a-z0-9]"
+			maxlength="1000"
+			size="10" />
+			<!--- default="§ p. pí. p pí =" -->
+		<field
+			name="NBSbefore"
+			type="text"
+			default=""
+			label="NBS beforehand"
+			description="List strings and characters requiring a NBS beforehand. Separate with spaces. Case ignored. Default: empty"
+			maxlength="1000"
+			size="10" />
+			<!--- default="Kč CZK € EUR $ mm cm m km mW W kW s min hod ks" -->		</fieldset>	</fields>	</config></extension>
