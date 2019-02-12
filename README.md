@@ -29,4 +29,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* based on plugin by effrit@mail.ru firstly published on the Joomla Forum [https://forum.joomla.org/viewtopic.php?f=715&t=965369](https://forum.joomla.org/viewtopic.php?f=715&t=965369)>.
+* based on plugin by effrit@mail.ru firstly published on the Joomla Forum [https://forum.joomla.org/viewtopic.php?f=715&t=965369](https://forum.joomla.org/viewtopic.php?f=715&t=965369).
