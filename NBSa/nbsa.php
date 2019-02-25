@@ -20,7 +20,7 @@ class plgButtonNBSa extends JPlugin
                 function addNBS(editor) { // original function created by effrit
 					
 					var str = Joomla.editors.instances[editor].getValue();
-					const regex = /((\>|&nbsp;|\s|[()])([A-Za-z0-9]" . (empty($NBSafter)? "" : "|") . preg_replace('/\s+/', '|' , preg_quote($NBSafter, '/')) . "))\s(?![\s])/gi; //tychapogoy added &nbsp; parentheses and others to match in the pattern
+					const regex = /((\>|&nbsp;|\s|[()])([A-Za-z0-9]" . (empty($NBSafter)? "" : "|") . preg_replace('/\s+/', '|' , preg_quote($NBSafter, '/')) . "))\s(?![\s]|[^{]*})/gi; //tychapogoy added &nbsp; parentheses and others to match in the pattern, added negative lookahead for unclosed curly brackets
 					const subst = '$1&nbsp;';
 					" . (!empty($NBSbefore)? "
 					const strr = str.replace(regex, subst);
