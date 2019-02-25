@@ -13,7 +13,15 @@
     </files>
 	<config>
 	<fields name="params">
-		<fieldset name="basic">		<field			name="label"			type="text"			default="add NBS"			label="Add Button Label"			description="Enter label text for the button"			maxlength="15"			size="10" />
+		<fieldset name="basic">
+		<field
+			name="label"
+			type="text"
+			default="add NBS"
+			label="Add Button Label"
+			description="Enter label text for the button"
+			maxlength="15"
+			size="10" />
 		<field
 			name="NBSafter"
 			type="text"
@@ -22,7 +30,7 @@
 			description="List strings and characters requiring a NBS afterwards. Separate with spaces. Case ignored. Default: [a-z0-9]"
 			maxlength="1000"
 			size="10" />
-			<!--- default="§ p. pí. p pí =" -->
+			<!--- alternative default="§ p. pí. p pí = $ č." -->
 		<field
 			name="NBSbefore"
 			type="text"
@@ -31,4 +39,8 @@
 			description="List strings and characters requiring a NBS beforehand. Separate with spaces. Case ignored. Default: empty"
 			maxlength="1000"
 			size="10" />
-			<!--- default="Kč CZK € EUR $ mm cm m km mW W kW s min hod ks" -->		</fieldset>	</fields>	</config></extension>
+			<!--- alternative default="000 Kč CZK € $ EUR mm cm m km mW W kW s min hod ks °C" -->
+		</fieldset>
+	</fields>
+	</config>
+</extension>
