@@ -3,8 +3,8 @@
 	<update>
 		<name>NBPS Editor Buttons</name>
 		<description>Joomla! CMS NBSP (add and remove) Editor Buttons</description>
-		<element>pkg_nbsp</element>
-		<type>package</type>
+		<element>nbsp</element>
+		<type>Plugin</type>
 		<version>1.5.3</version>
 		<client>site</client>
 		<infourl title="NBPS Editor Buttons">https://github.com/kofaysi/NBS-tilde-vlna/releases/tag/v1.5.3</infourl>
