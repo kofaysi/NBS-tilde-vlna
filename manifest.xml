@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
 	<update>
-		<name>NBSP Editor Buttons</name>
+		<name>Button - NBSP</name>
 		<description>Joomla! CMS NBSP (add and remove) Editor Buttons</description>
 		<element>nbsp</element>
 		<type>plugin</type>
