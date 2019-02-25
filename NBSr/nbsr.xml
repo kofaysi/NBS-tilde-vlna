@@ -1,17 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<extension version="3.1" type="plugin" group="editors-xtd" method="upgrade">
-    <name>Button - remove NBS</name>
-    <author><![CDATA[Žroutík]]></author>
-    <creationDate>September 2018</creationDate>
-    <copyright>Copyright (C) 2005 - 2013 Open Source Matters. All rights reserved.</copyright>
-    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-    <authorEmail>zroutik@gmail.com</authorEmail>
-    <version>0.9</version>
-    <description>Removes all non-breakable space <![CDATA[&amp;nbsp;]]> in the text.</description>
-    <files>
-        <filename plugin="nbsr">nbsr.php</filename>
-    </files>
-	<config>
-	<fields name="params">
-		<fieldset name="basic">		<field			name="label"			type="text"			default="remove NBS"			label="Remove Button Label"			description="Enter label text for the button"			maxlength="15"			size="10"
-		/>		</fieldset>	</fields>	</config></extension>
