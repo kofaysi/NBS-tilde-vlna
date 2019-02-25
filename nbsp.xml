@@ -53,6 +53,6 @@
 	</fields>
 	</config>
 	<updateservers>
-		<server type="extension" name="NBSP Update Site">https://github.com/kofaysi/NBS-tilde-vlna/blob/master/manifest.xml</server>
+		<server type="extension" name="NBSP Update Site">https://raw.githubusercontent.com/kofaysi/NBS-tilde-vlna/master/manifest.xml</server>
 	</updateservers>
 </extension>
