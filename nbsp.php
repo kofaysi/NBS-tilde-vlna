@@ -13,18 +13,18 @@ class plgButtonNBSP extends JPlugin
 {
     public function onDisplay($name)
     {
-		$labela = $this->params->get('labeladd', 'Custom 1 Text');
-		$NBSafter = $this->params->get('NBSafter', '');
-		$NBSbefore = $this->params->get('NBSbefore', '');
+		$labela = $this->params->get('labeladd', 'add NBSPs');
+		$NBSPafter = $this->params->get('NBSPafter', '');
+		$NBSPbefore = $this->params->get('NBSPbefore', '');
 		$jsCode = "
-function addNBS(editor) { // original function created by effrit
+function addNBSP(editor) {
 	
 	var str = Joomla.editors.instances[editor].getValue();
-	const regex = /((\>|&nbsp;|\s|[()])([A-Za-z0-9]" . (empty($NBSafter)? "" : "|") . preg_replace('/\s+/', '|' , preg_quote($NBSafter, '/')) . "))\s(?![\s]|[^{]*})/gi; //tychapogoy added &nbsp; parentheses and others to match in the pattern, added negative lookahead for unclosed curly brackets
+	const regex = /((\>|&nbsp;|\s|[()])([A-Za-z0-9]" . (empty($NBSPafter)? "" : "|") . preg_replace('/\s+/', '|' , preg_quote($NBSPafter, '/')) . "))\s(?![\s]|[^{]*})/gi;
 	const subst = '$1&nbsp;';
-	" . (!empty($NBSbefore)? "
+	" . (!empty($NBSPbefore)? "
 	const strr = str.replace(regex, subst);
-	const regexx = /([0-9])\s(?=(" . preg_replace('/\s+/' , '|', preg_quote($NBSbefore, '/')) . ")(\b|\W))/gi; // match digit(s) with units
+	const regexx = /([0-9])\s(?=(" . preg_replace('/\s+/' , '|', preg_quote($NBSPbefore, '/')) . ")(\b|\W))/gi;
 	const substt = '$1&nbsp;';
 
 	const result = strr.replace(regexx, substt);
@@ -43,13 +43,13 @@ function addNBS(editor) { // original function created by effrit
 		$buttona->class = 'btn';
         $buttona->text = $labela;
         $buttona->name = 'plus';
-		$buttona->onclick = 'addNBS(\''.$name.'\');addNBS(\''.$name.'\');return false;';  //tychapogoy added double run of a function
+		$buttona->onclick = 'addNBSP(\''.$name.'\');addNBSP(\''.$name.'\');return false;';  //tychapogoy added double run of a function
 		$buttona->link = '#';
         //return $buttona;
 		
 		$labelr = $this->params->get('labelremove');
 		$jsCode = "
-function removeNBS(editor) { // original function created by effrit
+function removeNBSP(editor) { // original function created by effrit
 	
 	var str = Joomla.editors.instances[editor].getValue();
 	const regex = /\&nbsp\;/gi;
@@ -68,7 +68,7 @@ function removeNBS(editor) { // original function created by effrit
 		$buttonr->class = 'btn';
         $buttonr->text = $labelr;
         $buttonr->name = 'minus';
-		$buttonr->onclick = 'removeNBS(\''.$name.'\');return false;';
+		$buttonr->onclick = 'removeNBSP(\''.$name.'\');return false;';
 		$buttonr->link = '#';
 		return array($buttona, $buttonr);
     }

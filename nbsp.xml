@@ -7,7 +7,7 @@
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
     <authorEmail>zroutik@gmail.com</authorEmail>
     <version>1.1</version>
-    <description>Adds a non-breakable space <![CDATA[&amp;nbsp;]]> after each single-letter word (numbers included) and string specified in the setting of the plugin. Based on the NBS plug-in by effrit@mail.ru firstly published on the Joomla Forum <![CDATA[https://forum.joomla.org/viewtopic.php?f=715&t=965369]]>.</description>
+    <description>Adds a non-breakable space <![CDATA[&amp;nbsp;]]> after each single-letter word (numbers included) and string specified in the setting of the plugin. Removes all non-breakable space <![CDATA[&amp;nbsp;]]> in the text. See <![CDATA[https://github.com/kofaysi/NBS-tilde-vlna]]> for code.</description>
     <files>
         <filename plugin="nbsp">nbsp.php</filename>
     </files>
@@ -23,7 +23,7 @@
 			maxlength="15"
 			size="10" />
 		<field
-			name="NBSafter"
+			name="NBSPafter"
 			type="text"
 			default=""
 			label="NBSP afterwards"
@@ -32,7 +32,7 @@
 			size="10" />
 			<!--- alternative default="§ p. pí. p pí = $ č." -->
 		<field
-			name="NBSbefore"
+			name="NBSPbefore"
 			type="text"
 			default=""
 			label="NBSP beforehand"
@@ -43,7 +43,7 @@
 		<field
 			name="labelremove"
 			type="text"
-			default="remove NBS"
+			default="remove NBSPs"
 			label="Remove Button Label"
 			description="Enter label text for the button"
 			maxlength="15"
