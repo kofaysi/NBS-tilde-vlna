@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
 	<update>
-		<name>Button - NBSP</name>
+		<!--<name>Button - NBSP</name>
 		<description>Joomla! CMS NBSP (add and remove) Editor Buttons</description>
-		<element>nbsp</element>
+		<element>nbsp</element>-->
 		<type>plugin</type>
 		<version>1.5.13</version>
 		<client>site</client>
