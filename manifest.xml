@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
 	<update>
-		<name>Button - NBSP</name>
+		<name>plg_editors-xtd_nbsp</name>
 		<description>Joomla! CMS NBSP Editor Buttons</description>
-		<element>plg_nbsp</element>
 		<type>plugin</type>
+		<folder>editors-xtd</folder>
+		<element>nbsp</element>
 		<version>1.5.18</version>
-		<client>site</client>
 		<infourl title="NBSP latest release">https://github.com/kofaysi/NBS-tilde-vlna/releases/latest/</infourl>
 		<downloads>
 			<downloadurl type="full" format="zip">https://github.com/kofaysi/NBS-tilde-vlna/archive/v1.5.18.zip</downloadurl>
