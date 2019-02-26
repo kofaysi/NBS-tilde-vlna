@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="1.5.15" type="plugin" group="editors-xtd" method="upgrade">
+<extension version="1.5.16" type="plugin" group="editors-xtd" method="upgrade">
     <name>Button - NBSP</name>
     <author><![CDATA[Žroutík]]></author>
     <creationDate>February 2019</creationDate>
     <copyright>Copyright (C) 2019 Open Source Matters. All rights reserved.</copyright>
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
     <authorEmail>zroutik@gmail.com</authorEmail>
-    <version>1.5</version>
+    <version>1.5.16</version>
     <description>Adds a non-breakable space <![CDATA[&amp;nbsp;]]> after each single-letter word (numbers included) and string specified in the setting of the plugin. Removes all non-breakable space <![CDATA[&amp;nbsp;]]> in the text. See <![CDATA[https://github.com/kofaysi/NBS-tilde-vlna]]> for code.</description>
     <files>
         <filename plugin="nbsp">nbsp.php</filename>
