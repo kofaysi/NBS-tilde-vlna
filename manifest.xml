@@ -3,9 +3,9 @@
 	<update>
 		<name>Button - NBSP</name>
 		<description>Joomla! CMS NBSP Editor Buttons</description>
-		<element>nbsp</element>
+		<element>plg_nbsp</element>
 		<type>plugin</type>
-		<version>1.5.16</version>
+		<version>1.5.17</version>
 		<client>site</client>
 		<infourl title="NBSP latest release">https://github.com/kofaysi/NBS-tilde-vlna/releases/latest/</infourl>
 		<downloads>
