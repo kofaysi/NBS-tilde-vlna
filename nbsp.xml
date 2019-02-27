@@ -10,9 +10,15 @@
     <description>Adds a non-breakable space <![CDATA[&amp;nbsp;]]> after each single-letter word (numbers included) and string specified in the setting of the plugin. Removes all non-breakable space <![CDATA[&amp;nbsp;]]> in the text. See <![CDATA[https://github.com/kofaysi/NBS-tilde-vlna]]> for code.
 	
 	Enable the plugin and extend the list of symbols or strings to match in the settings of the plugin.</description>
+	<languages></languages>
     <files>
         <filename plugin="nbsp">nbsp.php</filename>
-    </files>
+		<folder>lang</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_editor-xdt_nbsp.ini</language>
+		<language tag="en-GB">en-GB.plg_editor-xdt_nbsp.sys.ini</language>
+	</languages>
 	<config>
 	<fields name="params">
 		<fieldset name="basic">
