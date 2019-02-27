@@ -10,11 +10,9 @@
     <description>PLG_EDITORS-XTD_NBSP_DESC</description>
     <files>
         <filename plugin="nbsp">nbsp.php</filename>
+		<filename tag="en-GB">en-GB.plg_editor-xtd_nbsp.ini</filename>
+		<filename tag="en-GB">en-GB.plg_editor-xtd_nbsp.sys.ini</filename>
 	</files>
-	<languages>
-		<language>en-GB.plg_editor-xtd_nbsp.ini</language>
-		<language>en-GB.plg_editor-xtd_nbsp.sys.ini</language>
-	</languages>
 	<config>
 	<fields name="params">
 		<fieldset name="basic">
