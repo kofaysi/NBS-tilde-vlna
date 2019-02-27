@@ -9,11 +9,11 @@
  
 defined('_JEXEC') or die;
 
-function __construct(& $subject, $config)
+/*function __construct(& $subject, $config)
 {
 	$this->loadLanguage();
 	parent::__construct($subject, $config);
-}
+}*/
 
 class plgButtonNBSP extends JPlugin
 {

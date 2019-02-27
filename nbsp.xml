@@ -11,11 +11,8 @@
 	<languages></languages>
     <files>
         <filename plugin="nbsp">nbsp.php</filename>
+		<folder>languages</folder>
 	</files>
-	<languages>
-		<language tag="en-GB">en-GB.plg_editor-xtd_nbsp.ini</language>
-		<language tag="en-GB">en-GB.plg_editor-xtd_nbsp.sys.ini</language>
-	</languages>
 	<config>
 	<fields name="params">
 		<fieldset name="basic">
