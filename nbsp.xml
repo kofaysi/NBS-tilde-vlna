@@ -12,9 +12,9 @@
         <filename plugin="nbsp">nbsp.php</filename>
 		<folder>language</folder>
 	</files>
-	<languages>
-		<language tag="en-GB">language/en-GB/en-GB.plg_editor-xtd_nbsp.ini</language>
-		<language tag="en-GB">language/en-GB/en-GB.plg_editor-xtd_nbsp.sys.ini</language>
+	<languages folder="language/en-GB/">
+		<language tag="en-GB">en-GB.plg_editor-xtd_nbsp.ini</language>
+		<language tag="en-GB">en-GB.plg_editor-xtd_nbsp.sys.ini</language>
 	</languages>
 	<config>
 	<fields name="params">
