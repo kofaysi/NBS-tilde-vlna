@@ -7,7 +7,7 @@
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
     <authorEmail>zroutik@gmail.com</authorEmail>
     <version>1.6.20</version>
-    <description>PLG_EDITORS-XTD_NBSP_DESCRIPTION</description>
+    <description>PLG_EDITORS-XTD_NBSP_DESCRIPTION,&lt;a href=&quot;index.php?option=com_plugins&amp;filter_element=nbsp&quot; target=&quot;_blank&quot;&gt;,&lt;/a&gt;</description>
     <files>
         <filename plugin="nbsp">nbsp.php</filename>
 		<folder>language</folder>
@@ -29,7 +29,7 @@
 		<field
 			name="NBSPafter"
 			type="text"
-			default=PLG_EDITORS-XTD_NBSP_NBSPAFTER_DEFAULT
+			default=""
 			nillable="true"
 			label="PLG_EDITORS-XTD_NBSP_NBSPAFTER_LABEL"
 			description="PLG_EDITORS-XTD_NBSP_NBSPAFTER_DESCRIPTION"
@@ -39,8 +39,8 @@
 		<field
 			name="NBSPbefore"
 			type="text"
-			default="PLG_EDITORS-XTD_NBSP_NBSPBEFORE_DEFAULT"
-			label="PLG_EDITORS-XTD_NBSP_NBSPBEFORE_LABEl"
+			default=""
+			label="PLG_EDITORS-XTD_NBSP_NBSPBEFORE_LABEL"
 			description="PLG_EDITORS-XTD_NBSP_NBSPBEFORE_DESCRIPTION"
 			maxlength="1000"
 			size="10" />
