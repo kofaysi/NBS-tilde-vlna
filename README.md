@@ -4,7 +4,7 @@ Plugin to Joomla editor inserting and removing non-breakable spaces in the text.
 
 ## Getting Started
 
-Download thelatest releaseand install at a Joomla site. See the settings of the plugin.
+Download the latest release and install at a Joomla site. See the settings of the plugin.
 
 ### Prerequisites
 
