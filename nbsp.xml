@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="1.6.11" type="plugin" group="editors-xtd" method="upgrade">
+<extension version="1.6.12" type="plugin" group="editors-xtd" method="upgrade">
     <name>plg_editors-xtd_nbsp</name>
     <author><![CDATA[Žroutík]]></author>
     <creationDate>February 2019</creationDate>
     <copyright>Copyright (C) 2019 Open Source Matters. All rights reserved.</copyright>
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
     <authorEmail>zroutik@gmail.com</authorEmail>
-    <version>1.6.11</version>
+    <version>1.6.12</version>
     <description>PLG_EDITORS-XTD_NBSP_DESC</description>
     <files>
         <filename plugin="nbsp">nbsp.php</filename>
 		<folder>language</folder>
 	</files>
-	<languages folder="language/en-GB/">
+	<languages> <!--folder="language/en-GB/"-->
 		<language tag="en-GB">en-GB.plg_editor-xtd_nbsp.ini</language>
 		<language tag="en-GB">en-GB.plg_editor-xtd_nbsp.sys.ini</language>
 	</languages>
