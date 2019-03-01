@@ -7,7 +7,7 @@
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
     <authorEmail>zroutik@gmail.com</authorEmail>
     <version>1.6.20</version>
-    <description>PLG_EDITORS-XTD_NBSP_DESCRIPTION</description>
+    <description>"Adds a non-breakable space <![CDATA[&amp;nbsp;]]> after each single-letter word (numbers included) and string specified in the setting of the plugin. Removes all non-breakable space <![CDATA[&amp;nbsp;]]> in the text. See <![CDATA[https://github.com/kofaysi/NBS-tilde-vlna]]> for code.	Please see the <![CDATA[index.php?option=com_plugins&amp;filter_element=NBSP]]> <a href="administrator/index.php?option=com_plugins&amp;filter_element=NBSP">plugin</a> for settings."</description>
     <files>
         <filename plugin="nbsp">nbsp.php</filename>
 		<folder>language</folder>
