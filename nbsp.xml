@@ -22,35 +22,35 @@
 		<field
 			name="labeladd"
 			type="text"
-			default=PLG_EDITORS-XTD_NBSP_LABELADD_DEFAULT
-			label=PLG_EDITORS-XTD_NBSP_LABELADD_DEFAULT
-			description=PLG_EDITORS-XTD_NBSP_LABELADD_DESCRIPTION
+			default="PLG_EDITORS-XTD_NBSP_LABELADD_DEFAULT"
+			label="PLG_EDITORS-XTD_NBSP_LABELADD_DEFAULT"
+			description="PLG_EDITORS-XTD_NBSP_LABELADD_DESCRIPTION"
 			maxlength="15"
 			size="10" />
 		<field
 			name="NBSPafter"
 			type="text"
-			default=PLG_EDITORS-XTD_NBSP_NBSPAFTER_DEFAULT
-			label=PLG_EDITORS-XTD_NBSP_NBSPAFTER_LABEL
-			description=PLG_EDITORS-XTD_NBSP_NBSPAFTER_DESCRIPTION
+			default="PLG_EDITORS-XTD_NBSP_NBSPAFTER_DEFAULT"
+			label="PLG_EDITORS-XTD_NBSP_NBSPAFTER_LABEL"
+			description="PLG_EDITORS-XTD_NBSP_NBSPAFTER_DESCRIPTION"
 			maxlength="1000"
 			size="10" />
 			<!--- alternative default="§ p. pí. p pí = $ č." -->
 		<field
 			name="NBSPbefore"
 			type="text"
-			default=PLG_EDITORS-XTD_NBSP_NBSPBEFORE_DEFAULT
-			label=PLG_EDITORS-XTD_NBSP_NBSPBEFORE_LABEl
-			description=PLG_EDITORS-XTD_NBSP_NBSPBEFORE_DESCRIPTION
+			default="PLG_EDITORS-XTD_NBSP_NBSPBEFORE_DEFAULT"
+			label="PLG_EDITORS-XTD_NBSP_NBSPBEFORE_LABEl"
+			description="PLG_EDITORS-XTD_NBSP_NBSPBEFORE_DESCRIPTION"
 			maxlength="1000"
 			size="10" />
 			<!--- alternative default="000 Kč CZK € $ EUR mm cm m km mW W kW s min hod ks °C" -->
 		<field
 			name="labelremove"
 			type="text"
-			default=PLG_EDITORS-XTD_NBSP_LABELREMOVE_DEFAULT
-			label=PLG_EDITORS-XTD_NBSP_LABELREMOVE_LABEL
-			description=PLG_EDITORS-XTD_NBSP_LABELREMOVE_DESCRIPTION
+			default="PLG_EDITORS-XTD_NBSP_LABELREMOVE_DEFAULT"
+			label="PLG_EDITORS-XTD_NBSP_LABELREMOVE_LABEL"
+			description="PLG_EDITORS-XTD_NBSP_LABELREMOVE_DESCRIPTION"
 			maxlength="15"
 			size="10" />	
 		</fieldset>
