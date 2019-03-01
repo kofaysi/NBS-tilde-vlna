@@ -31,6 +31,7 @@
 			name="NBSPafter"
 			type="text"
 			default="PLG_EDITORS-XTD_NBSP_NBSPAFTER_DEFAULT"
+			nillable="true"
 			label="PLG_EDITORS-XTD_NBSP_NBSPAFTER_LABEL"
 			description="PLG_EDITORS-XTD_NBSP_NBSPAFTER_DESCRIPTION"
 			maxlength="1000"
