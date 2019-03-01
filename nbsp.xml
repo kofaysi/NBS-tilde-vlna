@@ -10,7 +10,6 @@
     <description>PLG_EDITORS-XTD_NBSP_DESCRIPTION</description>
     <files>
         <filename plugin="nbsp">nbsp.php</filename>
-		<folder>language</folder>
 	</files>
 	<languages> <!--folder="language/en-GB/"-->
 		<language tag="en-GB">en-GB.plg_editors-xtd_nbsp.ini</language>
@@ -30,7 +29,6 @@
 			name="NBSPafter"
 			type="text"
 			default=""
-			nillable="true"
 			label="PLG_EDITORS-XTD_NBSP_NBSPAFTER_LABEL"
 			description="PLG_EDITORS-XTD_NBSP_NBSPAFTER_DESCRIPTION"
 			maxlength="1000"
