@@ -1,14 +1,14 @@
 # NBS-tilde-vlna
 
-Plugin to Joomla editor inserting and removing non-breakable spaces in the text
+Plugin to Joomla editor inserting and removing non-breakable spaces in the text.
 
 ## Getting Started
 
-Download NBSa.zip and NBSr.zip and install them as plugins in a Joomla site. See the settings of both plugins for details.
+Download thelatest releaseand install at a Joomla site. See the settings of the plugin.
 
 ### Prerequisites
 
-Tested on Joomla 3.9.2
+Tested on Joomla 3.9.3
 
 ## Built With
 
