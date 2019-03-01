@@ -25,12 +25,11 @@
 			default="PLG_EDITORS-XTD_NBSP_LABELADD_DEFAULT"
 			label="PLG_EDITORS-XTD_NBSP_LABELADD_DEFAULT"
 			description="PLG_EDITORS-XTD_NBSP_LABELADD_DESCRIPTION"
-			maxlength="15"
-			size="10" />
+			maxlength="15" />
 		<field
 			name="NBSPafter"
 			type="text"
-			default="PLG_EDITORS-XTD_NBSP_NBSPAFTER_DEFAULT"
+			default=PLG_EDITORS-XTD_NBSP_NBSPAFTER_DEFAULT
 			nillable="true"
 			label="PLG_EDITORS-XTD_NBSP_NBSPAFTER_LABEL"
 			description="PLG_EDITORS-XTD_NBSP_NBSPAFTER_DESCRIPTION"
