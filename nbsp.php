@@ -9,12 +9,6 @@
  
 defined('_JEXEC') or die;
 
-/*function __construct(& $subject, $config)
-{
-	$this->loadLanguage();
-	parent::__construct($subject, $config);
-}*/
-
 class plgButtonNBSP extends JPlugin
 {
     public function onDisplay($name)
@@ -49,12 +43,13 @@ function addNBSP(editor) {
 		$buttona->class = 'btn';
         $buttona->text = $labela;
         $buttona->name = 'plus';
-		$buttona->onclick = 'addNBSP(\''.$name.'\');addNBSP(\''.$name.'\');return false;';
+		$buttona->onclick = 'addNBSP(\''.$name.'\');addNBSP(\''.$name.'\');return false;';  //tychapogoy added double run of a function
 		$buttona->link = '#';
+        //return $buttona;
 		
 		$labelr = $this->params->get('labelremove');
 		$jsCode = "
-function removeNBSP(editor) {
+function removeNBSP(editor) { // original function created by effrit
 	
 	var str = Joomla.editors.instances[editor].getValue();
 	const regex = /\&nbsp\;/gi;
