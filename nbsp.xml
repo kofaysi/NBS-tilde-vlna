@@ -7,7 +7,7 @@
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
     <authorEmail>zroutik@gmail.com</authorEmail>
     <version>1.6.20</version>
-    <description>PLG_EDITORS-XTD_NBSP_DESCRIPTION,&lt;a href=&quot;index.php?option=com_plugins&amp;filter_element=nbsp&quot; target=&quot;_blank&quot;&gt;,&lt;/a&gt;</description>
+    <description>PLG_EDITORS-XTD_NBSP_DESCRIPTION</description>
     <files>
         <filename plugin="nbsp">nbsp.php</filename>
 		<folder>language</folder>
