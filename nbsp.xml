@@ -1,35 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="1.5.22" type="plugin" group="editors-xtd" method="upgrade">
+<extension version="1.6" type="plugin" group="editors-xtd" method="upgrade">
     <name>plg_editors-xtd_nbsp</name>
     <author><![CDATA[Žroutík]]></author>
-    <creationDate>February 2019</creationDate>
+    <creationDate>March 2019</creationDate>
     <copyright>Copyright (C) 2019 Open Source Matters. All rights reserved.</copyright>
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
     <authorEmail>zroutik@gmail.com</authorEmail>
-    <version>1.5.22</version>
-    <description>Adds a non-breakable space <![CDATA[&amp;nbsp;]]> after each single-letter word (numbers included) and string specified in the setting of the plugin. Removes all non-breakable space <![CDATA[&amp;nbsp;]]> in the text. See <![CDATA[https://github.com/kofaysi/NBS-tilde-vlna]]> for code.
-	
-	Enable the plugin and extend the list of symbols or strings to match in the settings of the plugin.</description>
+    <version>1.6.37</version>
+    <description>PLG_EDITORS-XTD_NBSP_XML_DESCRIPTION</description>
     <files>
         <filename plugin="nbsp">nbsp.php</filename>
-    </files>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_editors-xtd_nbsp.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_editors-xtd_nbsp.sys.ini</language>
+	</languages>
 	<config>
 	<fields name="params">
 		<fieldset name="basic">
 		<field
 			name="labeladd"
 			type="text"
-			default="add NBSPs"
-			label="Add Button Label"
-			description="Enter label text for the button"
-			maxlength="15"
-			size="10" />
+			default="PLG_EDITORS-XTD_NBSP_LABELADD_DEFAULT"
+			label="PLG_EDITORS-XTD_NBSP_LABELADD_DEFAULT"
+			description="PLG_EDITORS-XTD_NBSP_LABELADD_DESCRIPTION"
+			maxlength="15" />
 		<field
 			name="NBSPafter"
 			type="text"
 			default=""
-			label="NBSP afterwards"
-			description="List strings and characters requiring a NBSP afterwards. Separate with spaces. Case ignored. Default: [a-z0-9]"
+			nillable="true"
+			label="PLG_EDITORS-XTD_NBSP_NBSPAFTER_LABEL"
+			description="PLG_EDITORS-XTD_NBSP_NBSPAFTER_DESCRIPTION"
 			maxlength="1000"
 			size="10" />
 			<!--- alternative default="§ p. pí. p pí = $ č." -->
@@ -37,17 +39,17 @@
 			name="NBSPbefore"
 			type="text"
 			default=""
-			label="NBSP beforehand"
-			description="List strings and characters requiring a NBSP beforehand. Separate with spaces. Case ignored. Default: empty"
+			label="PLG_EDITORS-XTD_NBSP_NBSPBEFORE_LABEL"
+			description="PLG_EDITORS-XTD_NBSP_NBSPBEFORE_DESCRIPTION"
 			maxlength="1000"
 			size="10" />
 			<!--- alternative default="000 Kč CZK € $ EUR mm cm m km mW W kW s min hod ks °C" -->
 		<field
 			name="labelremove"
 			type="text"
-			default="remove NBSPs"
-			label="Remove Button Label"
-			description="Enter label text for the button"
+			default="PLG_EDITORS-XTD_NBSP_LABELREMOVE_DEFAULT"
+			label="PLG_EDITORS-XTD_NBSP_LABELREMOVE_LABEL"
+			description="PLG_EDITORS-XTD_NBSP_LABELREMOVE_DESCRIPTION"
 			maxlength="15"
 			size="10" />	
 		</fieldset>
