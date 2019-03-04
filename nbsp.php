@@ -20,7 +20,7 @@ class plgButtonNBSP extends JPlugin
 function addNBSP(editor) {
 	
 	var str = Joomla.editors.instances[editor].getValue();
-	const regex = /((?<=(\>|&nbsp;|\s|[()]))([A-Za-z0-9]" . (empty($NBSPafter)? "" : "|") . preg_replace('/\s+/', '|' , preg_quote($NBSPafter, '/')) . "))\s(?![\s]|[^{]*})/gi;
+	const regex = /((\>|&nbsp;|\s|[()])([A-Za-z0-9]" . (empty($NBSPafter)? "" : "|") . preg_replace('/\s+/', '|' , preg_quote($NBSPafter, '/')) . "))\s(?![\s]|[^{]*})/gi;
 	const subst = '$1&nbsp;';
 	" . (!empty($NBSPbefore)? "
 	const strr = str.replace(regex, subst);
