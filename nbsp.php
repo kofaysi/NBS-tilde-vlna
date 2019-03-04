@@ -20,7 +20,7 @@ class plgButtonNBSP extends JPlugin
 function addNBSP(editor) {
 	
 	var str = Joomla.editors.instances[editor].getValue();
-	const regex = /((\>|&nbsp;|\s|[()])([A-Za-z0-9]" . (empty($NBSPafter)? "" : "|") . preg_replace('/\s+/', '|' , preg_quote($NBSPafter, '/')) . "))\s(?![\s]|[^{]*})/gi;
+	const regex = /((\>|&nbsp;|\s|[()])([A-Za-z0-9]" . (empty($NBSPafter)? "" : "|") . preg_replace('/\s+/', '|' , preg_quote($NBSPafter, '/')) . "))(?=\s(?![\s]|[^{]*}))/gi;
 	const subst = '$1&nbsp;';
 	" . (!empty($NBSPbefore)? "
 	const strr = str.replace(regex, subst);
@@ -43,7 +43,7 @@ function addNBSP(editor) {
 		$buttona->class = 'btn';
         $buttona->text = $labela;
         $buttona->name = 'plus';
-		$buttona->onclick = 'addNBSP(\''.$name.'\');addNBSP(\''.$name.'\');return false;';
+		$buttona->onclick = 'addNBSP(\''.$name.'\');return false;';
 		$buttona->link = '#';
 		
 		$labelr = $this->params->get('labelremove');
