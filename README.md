@@ -1,6 +1,6 @@
 # NBS-tilde-vlna
 
-Plugin to Joomla editor inserting and removing non-breakable spaces in the text
+Plugin to Joomla JCE editor inserting and removing non-breakable spaces in the text.
 
 ## Getting Started
 
