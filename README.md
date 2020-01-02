@@ -4,11 +4,11 @@ Plugin to Joomla editor inserting and removing non-breakable spaces in the text
 
 ## Getting Started
 
-Download NBSa.zip and NBSr.zip and install them as plugins in a Joomla site. See the settings of both plugins for details.
+Download NBSP.zip and install as a plugin on a Joomla site. See the settings for the plugin for details.
 
 ### Prerequisites
 
-Tested on Joomla 3.9.2
+Tested on Joomla 3.9.14
 
 ## Built With
 
@@ -29,4 +29,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* based on plugin by effrit@mail.ru firstly published on the Joomla Forum [https://forum.joomla.org/viewtopic.php?f=715&t=965369](https://forum.joomla.org/viewtopic.php?f=715&t=965369).
+* based on plugin by effrit@mail.ru, with many thanks, firstly published on the Joomla Forum [https://forum.joomla.org/viewtopic.php?f=715&t=965369](https://forum.joomla.org/viewtopic.php?f=715&t=965369).
